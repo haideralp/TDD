@@ -5,7 +5,7 @@
 - In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and making code simple and bug-free.
 
 ## Diagram - Showing TDD Cycle 
-
+![image](https://user-images.githubusercontent.com/97620055/183910129-46da16fc-bff1-47eb-9bef-b551b9944762.png)
 
 ## Benefits of TDD ?
 
