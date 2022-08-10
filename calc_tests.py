@@ -17,4 +17,8 @@ class Calc_tests(unittest.TestCase):
         self.assertEqual(self.calc_obj.divide(10, 5), 2)
 
     def test_dob(self):
-        self.assertIs(self.calc_obj.dob(date, month), date, month)
+        self.assertEqual(self.calc_obj.dob(15,7),"15/7")
+     def test_percentage(self):
+        self.assertEqual(self.calc_obj.percentage((1, 2), 50)
+    def test_conversion(self):
+        self.assertEqual(self.calc_obj.conversion(100), 1)

@@ -12,19 +12,17 @@ class BasicCalc:
     def divide(self, value1, value2):
         return value1 / value2
 
-    def dob(self,date,month):
-         date = int(input("Enter a date: "))
-         month = str(input("Enter a month: "))
-         return date, month
-    def percentage(self, x, y):
-        if x | y == 0:
-            x = int(input("Enter first number: "))
-            y = int(input("Enter second number: "))
-        return x / y * 100
-    def modulo(self,a,b):
-        if a | b == 0
-            a = int(input("Enter first number: "))
-            b = int(input("Enter second number: "))
-        return a % b
 
-    def conversion(self, value1, value2):
+# Create DOB function
+# Create Percentage function
+# Create cm to m function
+# Create modulo function
+
+    def dob(self,v1,v2):
+        return f"{v1}/{v2}
+    def percentage(self, x, y):
+        return x / y * 100
+    def conversion(self, value):
+        return value / 100
+    def modulo(self, a, b):
+        return a % b
