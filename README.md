@@ -20,6 +20,7 @@
 ### Calculator Functions
 
 ``` Python
+
 class BasicCalc:
 
     def add(self, value1, value2):
@@ -34,28 +35,30 @@ class BasicCalc:
     def divide(self, value1, value2):
         return value1 / value2
 
-    def dob(self,date,month):
-         date = int(input("Enter a date: "))
-         month = str(input("Enter a month: "))
-         return date, month
-    def percentage(self, x, y):
-        if x | y == 0:
-            x = int(input("Enter first number: "))
-            y = int(input("Enter second number: "))
-        return x / y * 100
-    def modulo(self,a,b):
-        if a | b == 0
-            a = int(input("Enter first number: "))
-            b = int(input("Enter second number: "))
-        return a % b
 
-    def conversion(self, value1, value2):
+# Create DOB function
+# Create Percentage function
+# Create cm to m function
+# Create modulo function
+
+    def dob(self,value1,value2):
+        return f"Your DOB is {value1} / {value2}"
+    def percentage(self, value1, value2):
+        return value1/value2 * 100
+    def conversion(self, value):
+        return value/100
+    def modulo(self, value1, value2):
+        return value1 % value2
+
 ```
 ### Unit Tests
 
 ```python
+from calc import BasicCalc
+import unittest
 class Calc_tests(unittest.TestCase):
     calc_obj = BasicCalc()
+
     def test_add(self):
         self.assertEqual(self.calc_obj.add(2, 2), 4)
 
@@ -69,5 +72,14 @@ class Calc_tests(unittest.TestCase):
         self.assertEqual(self.calc_obj.divide(10, 5), 2)
 
     def test_dob(self):
-        self.assertIs(self.calc_obj.dob(date, month), date, month)
+        self.assertEqual(self.calc_obj.dob(15,7), "Your DOB is 15 / 7")
+
+    def test_percentage(self):
+        self.assertEqual(self.calc_obj.percentage(1, 2), 50)
+
+    def test_conversion(self):
+        self.assertEqual(self.calc_obj.conversion(100), 1)
+
+    def test_modulo(self):
+        self.assertEqual(self.calc_obj.modulo(5,3),2)
 ```
