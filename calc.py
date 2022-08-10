@@ -1,4 +1,4 @@
-class Calc:
+class BasicCalc:
 
     def add(self, value1, value2):
         return value1 + value2
