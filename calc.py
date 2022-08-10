@@ -12,15 +12,19 @@ class BasicCalc:
     def divide(self, value1, value2):
         return value1 / value2
 
-    def dob(self, date, month):
-        if date < 1:
-            x_1 = int(input("Enter a date. "))
-            x_2 = int(input("Enter a month. "))
-            date, month = dob(x_1, x_2)
-        return date, month
-    def percentage(self, x1, x2):
-        if x1 | x2 == 0:
-            x1_1 = int(input("Enter a new number. "))
-            x2_2 = int(input("Enter a new number. "))
-            percentage(x1_1, x2_2)
-        return 100 * x1 / x2 
+    def dob(self,date,month):
+         date = int(input("Enter a date: "))
+         month = str(input("Enter a month: "))
+         return date, month
+    def percentage(self, x, y):
+        if x | y == 0:
+            x = int(input("Enter first number: "))
+            y = int(input("Enter second number: "))
+        return x / y * 100
+    def modulo(self,a,b):
+        if a | b == 0
+            a = int(input("Enter first number: "))
+            b = int(input("Enter second number: "))
+        return a % b
+
+    def conversion(self, value1, value2):
