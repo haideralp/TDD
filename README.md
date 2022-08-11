@@ -9,19 +9,19 @@
 
 ## Process of TDD
 ### The practice of TDD approach includes the following steps:
-- Red : a test written for a code which fails
+- Red : a test written for a code which fails. 
 - Green : a code is then writtern so the test is passed.
 - Refactor (Grey) : code optimisation occurs here. Code structure is being checked without changing original functionality of the code. The outcome of this stage         of this stage should produce perfectly written code.
 - This process is a repeating cycle  for every piece of functionality in the projects. It allows full test code coverage. 
 
 ## Benefits of TDD ?
 
--  Better program design and higher code quality
--  Detailed project documentation
--  TDD reduces the time required for project development
--  Code flexibility and easier maintenance
--  With TDD you will get a reliable solution
--  Save project costs in the long run
+-  Better program design and higher code quality --> a very simple and readable code is delivered improving project desing and quality (no repeat codes). 
+-  Detailed project documentation --> no need for heavy documentations as programmers specify the strict requirements. Includes all user actions likely to take place. 
+-  TDD reduces the time required for project development --> having clean and error free code means you can save a lot of time in projects due to ease of use. 
+-  Code flexibility and easier maintenance --> bug free and easier to introduce and reproduce. Can be easily read and understood by non-developers. 
+-  With TDD you will get a reliable solution --> After refactoring, you and developer has transparency for the reliability of the code. You can be sure the solution works.
+-  Save project costs in the long run --> Decreases costs on projects overall due to multiple benefits as dicussed above. (Code quality, Readable, Scalability)
 
 
 ### Calculator Functions
