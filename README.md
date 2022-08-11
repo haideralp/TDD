@@ -9,10 +9,10 @@
 
 ## Process of TDD
 ### The practice of TDD approach includes the following steps:
-    - Red : a test written for a code which fails
-    - Green : a code is then writtern so the test is passed.
-    - Refactor (Grey) : code optimisation occurs here. Code structure is being checked without changing original functionality of the code. The outcome of this stage                           of this stage should produce perfectly written code.
-    - This process is a repeating cycle  for every piece of functionality in the projects. It allows full test code coverage. 
+- Red : a test written for a code which fails
+- Green : a code is then writtern so the test is passed.
+- Refactor (Grey) : code optimisation occurs here. Code structure is being checked without changing original functionality of the code. The outcome of this stage         of this stage should produce perfectly written code.
+- This process is a repeating cycle  for every piece of functionality in the projects. It allows full test code coverage. 
 
 ## Benefits of TDD ?
 
