@@ -83,3 +83,5 @@ class Calc_tests(unittest.TestCase):
     def test_modulo(self):
         self.assertEqual(self.calc_obj.modulo(5,3),2)
 ```
+### Showcasing The Passing of Test Results 
+![image](https://user-images.githubusercontent.com/97620055/184082729-a3a88534-6152-4e91-b958-0808845be2a3.png)
